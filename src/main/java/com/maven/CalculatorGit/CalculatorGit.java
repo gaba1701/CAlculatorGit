@@ -13,4 +13,7 @@ public class CalculatorGit {
 	public double multiply(double firstNumber, double secondNumber) {
 		return firstNumber * secondNumber;
 	}
+	public double divis(double firstNumber, double secondNumber) {
+		return firstNumber / secondNumber;
+	}
 } // comm
