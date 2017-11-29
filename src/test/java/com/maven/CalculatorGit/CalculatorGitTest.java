@@ -65,4 +65,20 @@ public class CalculatorGitTest {
 			
 		}
 	}
+	@Test
+	public void testDivision() {
+		double firstNumber = 0;
+		double secondNumber = 0;
+		double result = 0;
+		
+		for(int i = 0;i<10;i++) {
+			firstNumber = Double.valueOf(df.format(random.nextDouble()*10));
+			secondNumber = Double.valueOf(df.format(random.nextDouble()*10));
+			result = firstNumber / secondNumber;
+			
+			LOG.info("Testing the method with: "+ firstNumber +" and " + secondNumber);
+			assertEquals(Math.round(calculator.divis(firstNumber, secondNumber)), Math.round(result),1);
+			
+		}
+	}
 }
