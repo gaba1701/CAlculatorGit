@@ -10,4 +10,4 @@ public class CalculatorGit {
 	public double Substruc(double firstNumber, double secondNumber) {
 		return firstNumber - secondNumber;
 	}
-}
+} // comm
